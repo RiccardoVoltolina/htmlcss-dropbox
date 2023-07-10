@@ -8,18 +8,18 @@
 
 /* debug section */
 
-header {
+/* header {
     background-color: blue;
-    height: 80px;
+    height: 60px;
 }
 
 .row_header {
     background-color: yellow;
-    height: 80px;
+    height: 60px;
     border: 1px solid black;
 }
-
-.card_header_left, .card_header_right, .small_main_col, .big_main_col, .fourth_section_column {
+ */
+.small_main_col, .big_main_col, .fourth_section_column {
     background-color: green;
 }
 
@@ -81,6 +81,10 @@ footer {
 
 /* common rules */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .main_container {
     width: 80%;
     max-width: 1170px;
@@ -103,6 +107,14 @@ footer {
     justify-content: space-between;
 }
 
+.align_center {
+    align-items: center;
+}
+
+.justy_end {
+    justify-content: end;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
@@ -113,11 +125,35 @@ footer {
 .row_header {
     width: calc(100% / 2);
     align-items: center;
+    height: 60px;
+}
+
+.card_header_left > img {
+    padding-left: 15px;
+}
+
+.sx, .sx > a {
+    margin-left: 20px;  
+}
+
+
+.dx, .dx > a {
+    margin-right: 20px;
+}
+
+
+.container_links_header > a {
+    text-decoration: none; 
 }
 
 .card_header_right {
-    text-align: end;
     width: 100%;
+}
+
+.button_header {
+    background-color: blue;
+    padding: 5px;
+    cursor: pointer;
 }
 
 /* main */
