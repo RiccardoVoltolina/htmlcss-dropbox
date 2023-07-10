@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* commons rules */
+
+/* debug section */
+
+header {
+    background-color: blue;
+    height: 80px;
+}
+
+main {
+    background-color: red;
+    height: 2000px;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+}
