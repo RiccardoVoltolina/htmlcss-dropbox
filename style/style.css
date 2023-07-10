@@ -160,6 +160,10 @@ body {
 
 /* first section */
 
+h1 {
+    padding-left: 20px;
+}
+
 
 
 .small_main_col {
