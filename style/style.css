@@ -13,20 +13,40 @@ header {
     height: 80px;
 }
 
-.col_header {
+.row_header {
     background-color: yellow;
     height: 80px;
     border: 1px solid black;
 }
 
-.card_header_left, .card_header_right {
+.card_header_left, .card_header_right, .small_main_col, .big_main_col {
     background-color: green;
 }
+
+/* end header debug */
 
 main {
     background-color: red;
     height: 2000px;
 }
+
+.main_container {
+    background-color: blue;
+    height: 600px;
+    border: 1px solid white;
+}
+
+.row_main {
+    background-color: purple;
+    height: 400px;
+}
+
+.small_main_col, .big_main_col {
+    height: 300px;
+    border: 1px solid black;
+}
+
+/* end main debug */
 
 footer {
     background-color: black;
@@ -44,10 +64,18 @@ footer {
     display: flex;
 }
 
+.pd20 {
+    padding: 20px 0;
+}
+
+.tx_center {
+    text-align: center;
+}
+
 /* header */
 
 
-.col_header {
+.row_header {
     width: calc(100% / 2);
     align-items: center;
 }
@@ -55,4 +83,23 @@ footer {
 .card_header_right {
     text-align: end;
     width: 100%;
+}
+
+/* main */
+
+/* first section */
+
+.main_container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.small_main_col {
+    width: 30%;
+}
+
+.big_main_col {
+    width: 70%;
 }
