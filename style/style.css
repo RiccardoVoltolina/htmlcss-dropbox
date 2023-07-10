@@ -47,7 +47,6 @@ main {
  */}
 
 .big_main_col {
-    height: 300px;
     border: 1px solid black;
 }
 
@@ -191,6 +190,10 @@ body {
     cursor: pointer;
 }
 
+.fixed_height {
+    height: 300px;
+}
+
 /* main */
 
 /* first section */
@@ -279,10 +282,27 @@ h1 {
 }
 
 
-
 .container_team {
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 40px;
+}
+
+.team_card  {
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+}
+
+.height_80 {
+    height: 80px;
+}
+
+.bottone_prova_gratuita_team {
+    width: 100%;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    max-height: 35px;
 }
 
 /* third section */
