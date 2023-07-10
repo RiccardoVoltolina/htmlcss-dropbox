@@ -19,23 +19,23 @@ header {
     border: 1px solid black;
 }
 
-.card_header_left, .card_header_right, .small_main_col, .big_main_col {
+.card_header_left, .card_header_right, .small_main_col, .big_main_col, .fourth_section_column {
     background-color: green;
 }
 
-.container_team {
+.container_team, .container_third_section {
     background-color: black;
     height: 300px;
+    color: aliceblue;
 }
 
 /* end header debug */
 
 main {
     background-color: red;
-    height: 2000px;
 }
 
-.main_container {
+.main_container, .image_container {
     background-color: blue;
     height: 800px;
     border: 1px solid white;
@@ -51,11 +51,22 @@ main {
     border: 1px solid black;
 }
 
-.cards_second_section {
+.cards_second_section, .cards_third_section {
     border: 1px solid black;
     background-color: green;
 }
 
+
+/* fouth section debug */
+
+.fourth_section_column {
+    border: 1px solid white;
+}
+
+.logo_container {
+    background-color: red;
+    border: 1px solid black;
+}
 /* end main debug */
 
 footer {
@@ -69,6 +80,12 @@ footer {
 
 
 /* common rules */
+
+.main_container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
 
 .flex {
     display: flex;
@@ -84,6 +101,10 @@ footer {
 
 .space_between {
     justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* header */
@@ -103,11 +124,6 @@ footer {
 
 /* first section */
 
-.main_container {
-    width: 80%;
-    max-width: 1170px;
-    margin: auto;
-}
 
 
 .small_main_col {
@@ -118,10 +134,40 @@ footer {
     width: 70%;
 }
 
-.cards_second_section {
+/* second section */
+
+.row_main {
+    padding: 20px;
+}
+
+.cards_second_section, .cards_third_section {
     width: calc(100% / 3 - 30px);
 }
 
 .container_team {
     margin-top: 20px;
+    padding: 20px;
+}
+
+/* third section */
+
+.cards_third_section {
+    margin-top: 10px;
+}
+
+/* fourth section */
+
+.fourth_section_column {
+    width: calc(100% / 3);
+}
+
+.logo_container {
+    width: calc(100% / 2);
+}
+
+/* footer */
+
+.col_footer {
+    width: calc(100% / 5 - 30px);
+    background-color: yellow;
 }
