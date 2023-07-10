@@ -4,13 +4,23 @@
     box-sizing: border-box;
 }
 
-/* commons rules */
+/* initial rules */
 
 /* debug section */
 
 header {
     background-color: blue;
     height: 80px;
+}
+
+.col_header {
+    background-color: yellow;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.card_header_left, .card_header_right {
+    background-color: green;
 }
 
 main {
@@ -21,4 +31,28 @@ main {
 footer {
     background-color: black;
     height: 400px;
+}
+
+
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* common rules */
+
+.flex {
+    display: flex;
+}
+
+/* header */
+
+
+.col_header {
+    width: calc(100% / 2);
+    align-items: center;
+}
+
+.card_header_right {
+    text-align: end;
+    width: 100%;
 }
