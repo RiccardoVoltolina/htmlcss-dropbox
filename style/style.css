@@ -104,8 +104,8 @@ body {
     display: flex;
 }
 
-.pd150 {
-    padding: 150px;
+.mgt150 {
+    margin-top: 150px;
 }
 
 .pd40 {
@@ -302,16 +302,36 @@ h1 {
     font-size: 15px;
     background-color: blue;
     border: none;
-    max-height: 35px;
+    max-height: 45px;
 }
 
 /* third section */
 
-.cards_third_section {
-    margin-top: 10px;
+.big_main_col_partner {
+    width: 60%;
+}
+
+.small_main_col_partner {
+    width: 40%;
+}
+
+
+.partner_png {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.trova_un_partner_button {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
 }
 
 /* fourth section */
+
+.cards_fourth_section {
+    margin-top: 10px;
+}
 
 .fourth_section_column {
     width: calc(100% / 3);
