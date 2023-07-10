@@ -58,8 +58,7 @@ main {
 
 .cards_container {
     background-color: red;
-/*     height: 100%;
- */}
+}
 
 
 /* fouth section debug */
@@ -112,6 +111,10 @@ body {
 
 .pd40 {
     padding: 40px 0;
+}
+
+.pdb40 {
+    padding-bottom: 40px;
 }
 
 .pdb15 {
@@ -241,6 +244,7 @@ h1 {
 
 .cards_second_section, .cards_third_section {
     width: calc(100% / 3 - 30px);
+    height: 100%;
 }
 
 .cards_second_section > i {
@@ -254,6 +258,7 @@ h1 {
     width: 90%;
     max-width: 1170px;
     margin: auto;
+    height: 100%;
 }
 
 .margin_mese {
