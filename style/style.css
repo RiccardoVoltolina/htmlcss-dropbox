@@ -156,6 +156,10 @@ body {
     margin: 20px 0;
 }
 
+.wth100 {
+    width: 100%;
+}
+
 
 /* header */
 
@@ -297,16 +301,16 @@ h1 {
     text-align: center;
 }
 
-.height_80 {
-    height: 80px;
+.height_100 {
+    height: 100%;
 }
 
 .bottone_prova_gratuita_team {
-    width: 100%;
-    font-size: 15px;
     background-color: blue;
+    padding: 15px;
     border: none;
-    max-height: 45px;
+    font-size: 15px;
+    margin-left: 20px;
 }
 
 /* third section */
