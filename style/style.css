@@ -112,6 +112,10 @@ body {
     padding: 40px 0;
 }
 
+.pdt30 {
+    padding-top: 30px;
+}
+
 .pdb40 {
     padding-bottom: 40px;
 }
@@ -247,7 +251,7 @@ h1 {
 
 .cards_second_section, .cards_third_section {
     width: calc(100% / 3 - 30px);
-    height: 100%;
+    padding-bottom: 40px;
 }
 
 .cards_second_section > i {
