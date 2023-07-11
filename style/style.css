@@ -108,6 +108,10 @@ body {
     margin-top: 150px;
 }
 
+.pdb80 {
+    padding-bottom: 80px;
+}
+
 .pd20 {
     padding: 20px;
 }
@@ -128,8 +132,20 @@ body {
     padding-top: 30px;
 }
 
+.pdl20 {
+    padding-left: 20px;
+}
+
+.pdr20 {
+    padding-right: 20px;
+}
+
 .pdb40 {
     padding-bottom: 40px;
+}
+
+.pdb20 {
+    padding-bottom: 20px;
 }
 
 .pdb15 {
@@ -162,6 +178,14 @@ body {
 
 .margin_bottom_20 {
     margin-bottom: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 .margin_top_bottom_20 {
@@ -366,12 +390,6 @@ h1 {
     width: calc(100% / 2);
 }
 
-.main_square {
-   
-}
-
-
-
 .square > img, .square {
     width: 100%;
     height: 100%;
@@ -386,6 +404,7 @@ h1 {
 .green {
     background-color: green;
 }
+
 
 /* footer */
 
