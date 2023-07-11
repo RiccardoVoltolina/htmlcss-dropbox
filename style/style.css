@@ -22,7 +22,7 @@
 }
 
 body {
-    color: gray;
+    color: var(--color-text-nav);
 }
 
 h1, h2, i, h3, h5, strong {
