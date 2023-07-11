@@ -21,7 +21,13 @@
     --bkc-yellow:#ffd830;
 }
 
+body {
+    color: gray;
+}
 
+h1, h2, i, h3, h5, strong {
+    color: black;
+}
 
 /* initial rules */
 
