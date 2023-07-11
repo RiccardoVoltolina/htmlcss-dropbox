@@ -120,6 +120,10 @@ body {
     padding: 30px;
 }
 
+.pd60 {
+    padding: 60px 0;
+}
+
 .pd10 {
     padding: 10px;
 }
@@ -151,6 +155,10 @@ body {
 .pdb15 {
     padding-bottom: 15px;
 }
+.pdb5 {
+    padding-bottom: 5px;
+}
+
 
 .pdr5 {
     padding-right: 5px;
@@ -408,7 +416,24 @@ h1 {
 
 /* footer */
 
+footer, .white {
+    color: white;
+}
+
+.footer_container {
+    background-color: green;
+    width: 90%;
+    max-width: 1170px;
+    margin: auto;
+}
+
 .col_footer {
-    width: calc(100% / 5 - 30px);
+    min-width: calc(100% / 5);
     background-color: yellow;
 }
+
+.pdb5 > a {
+    text-decoration: none;
+    color: white;
+}
+
