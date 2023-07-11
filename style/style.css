@@ -108,6 +108,10 @@ body {
     margin-top: 150px;
 }
 
+.pd20 {
+    padding: 20px;
+}
+
 .pd40 {
     padding: 40px 0;
 }
@@ -339,9 +343,14 @@ h1 {
 
 .cards_fourth_section {
     margin-top: 10px;
+    padding: 20px;
 }
 
-.fourth_section_column {
+.cards_fourth_section > img {
+    max-width: 100%;
+}
+
+.fourth_section_column, .cards_fourth_section {
     width: calc(100% / 3);
 }
 
