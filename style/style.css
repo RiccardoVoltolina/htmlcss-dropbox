@@ -4,72 +4,39 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bkc-jumbo-section: #b4d0e7;
+    --bkc-button-blu: #0061ff;
+    --color-text-nav: #363636;
+}
+
 /* initial rules */
 
 /* debug section */
 
-/* header {
-    background-color: blue;
-    height: 60px;
-}
 
-.row_header {
-    background-color: yellow;
-    height: 60px;
-    border: 1px solid black;
-}
- */
-.small_main_col, .big_main_col, .fourth_section_column {
-    background-color: green;
-}
 
-.container_team, .container_third_section {
-    background-color: black;
-/*     height: 300px;
- */    color: aliceblue;
-}
+
 
 /* end header debug */
 
-main {
-    background-color: red;
-}
 
-.main_container, .image_container {
-    background-color: blue;
-/*     height: 800px;
- */    border: 1px solid white;
-}
 
-.row_main {
-    background-color: purple;
-/*     height: 400px;
- */}
 
-.big_main_col {
-    border: 1px solid black;
-}
 
-.cards_second_section, .cards_third_section {
-    border: 1px solid black;
-    background-color: green;
-}
 
-.cards_container {
-    background-color: red;
-}
+
+
+
+
+
 
 
 /* fouth section debug */
 
-.fourth_section_column {
-    border: 1px solid white;
-}
 
-.logo_container {
-    background-color: red;
-    border: 1px solid black;
-}
+
+
 /* end main debug */
 
 footer {
@@ -93,10 +60,18 @@ body {
     margin: auto;
 }
 
+.border {
+    border: 1px solid;
+}
+
 .main_container_small {
     width: 90%;
     max-width: 1170px;
     margin: auto;
+}
+
+.font_size30 {
+    font-size: 30px;
 }
 
 .flex {
@@ -206,6 +181,13 @@ body {
 
 /* header */
 
+nav {
+    width: 100%;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    font-size: 15px;
+}
 
 .row_header {
     width: calc(100% / 2);
@@ -219,11 +201,13 @@ body {
 
 .sx, .sx > a {
     margin-left: 20px;  
+    color: var(--color-text-nav);
 }
 
 
 .dx, .dx > a {
-    margin-right: 20px;
+    margin-right: 15px;
+    color: var(--color-text-nav);
 }
 
 
@@ -236,9 +220,10 @@ body {
 }
 
 .button_header {
-    background-color: blue;
+    background-color: var(--bkc-button-blu);
+    color: white;
     padding: 5px;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .fixed_height {
@@ -249,8 +234,17 @@ body {
 
 /* first section */
 
+.bkc {
+    background-color: var(--bkc-jumbo-section);
+}
+
 h1 {
     padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 80%;
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 
@@ -260,7 +254,8 @@ h1 {
 }
 
 .bottone_prova_gratuita {
-    background-color: blue;
+    background-color: var(--bkc-button-blu);
+    color: white;
     padding: 15px;
     border: none;
     margin: 20px 0;
@@ -283,7 +278,7 @@ h1 {
 }
 
 .scale_2 {
-    transform: scale(2);
+    transform: scale(1.5);
     margin: 0 5px;
 }
 
@@ -303,7 +298,7 @@ h1 {
 
 .cards_second_section > i {
     padding: 10px;
-    border: 1px solid black;
+    border-bottom: 1px solid;
     width: 100%;
     text-align: center;
 }
@@ -317,7 +312,7 @@ h1 {
 
 .margin_mese {
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .paddin_before_buttons {
@@ -339,7 +334,7 @@ h1 {
 
 .team_card  {
     padding: 10px;
-    border: 1px solid white;
+    border-bottom: 1px solid;
     width: 100%;
     text-align: center;
 }
