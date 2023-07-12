@@ -83,7 +83,7 @@ body {
     border: 1px solid;
 }
 
-.main_container_small {
+.main_container_big {
     width: 90%;
     max-width: 1170px;
     margin: auto;
@@ -111,6 +111,10 @@ body {
 
 .pd20 {
     padding: 20px;
+}
+
+.mgt50 {
+    margin-top: 50px;
 }
 
 .pd30 {
@@ -417,6 +421,14 @@ h5 {
     width: 100%;
 }
 
+.team_container {
+    border: 1px solid;
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    height: 100%;
+}
+
 .cards_container {
     width: 90%;
     max-width: 1170px;
@@ -442,16 +454,14 @@ h5 {
 }
 
 
-.container_team {
-    margin: auto;
-    width: calc(100% - 40px);
-}
 
 .team_card  {
     padding: 10px;
-    border-bottom: 1px solid;
     width: 100%;
     text-align: center;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
 }
 
 .height_100 {
