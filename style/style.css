@@ -235,6 +235,15 @@ body {
     filter: brightness(150%);
 }
 
+.trova_un_partner_button, .no_border_button {
+    transition: all ;
+}
+
+.trova_un_partner_button:hover, .no_border_button:hover {
+    background-color: black;
+    color: white;
+}
+
 
 /* header */
 
@@ -346,7 +355,6 @@ h1 {
 
 .no_border_button {
     padding: 10px 25px;
-    color: gray;
     background-color: white;
     border: none;
     font-size: 15px;
