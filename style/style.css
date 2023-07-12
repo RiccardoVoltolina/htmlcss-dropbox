@@ -25,66 +25,34 @@ body {
     color: var(--color-text-nav);
 }
 
-h1, h2, i, h3, h5, strong {
-    color: black;
-}
-
-/* initial rules */
-
-/* debug section */
-
-
-
-
-
-/* end header debug */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* fouth section debug */
-
-
-
-
-/* end main debug */
-
-
-
-
-
-/* font-family: 'Open Sans', sans-serif; */
+/* end initial rules */
 
 
 /* common rules */
+
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.main_container {
-    width: 70%;
-    max-width: 1170px;
-    margin: auto;
+h1, h2, i, h3, h5, strong {
+    color: black;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
 }
 
 .border {
     border: 1px solid;
-}
-
-.main_container_big {
-    width: 90%;
-    max-width: 1170px;
-    margin: auto;
 }
 
 .font_size30 {
@@ -94,6 +62,83 @@ body {
 .flex {
     display: flex;
 }
+
+.tx_center {
+    text-align: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.align_start {
+    align-items: start;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.justy_end {
+    justify-content: end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justy_center {
+    justify-content: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.wth100 {
+    width: 100%;
+}
+
+
+/* button rules */
+
+
+.button_header, .bottone_prova_gratuita, .bottone_prova_gratuita_team {
+    transition: brightness;
+}
+
+.button_header:hover, .bottone_prova_gratuita:hover, .bottone_prova_gratuita_team:hover {
+    filter: brightness(150%);
+}
+
+.trova_un_partner_button, .no_border_button {
+    transition: all ;
+}
+
+.trova_un_partner_button:hover, .no_border_button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* container common rules */
+
+.main_container {
+    width: 70%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.main_container_big {
+    width: 90%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* padding rules */
 
 .pdt150 {
     padding-top: 150px;
@@ -131,8 +176,6 @@ body {
     padding: 40px 0;
 }
 
-
-
 .pdt30 {
     padding-top: 30px;
 }
@@ -169,7 +212,6 @@ body {
     padding-bottom: 80px;
 }
 
-
 .pdb15 {
     padding-bottom: 15px;
 }
@@ -181,77 +223,19 @@ body {
     padding-left: 5px;
 }
 
-
 .pdr5 {
     padding-right: 5px;
 }
 
-.tx_center {
-    text-align: center;
-}
-
-.space_between {
-    justify-content: space-between;
-}
-
-.align_start {
-    align-items: start;
-}
-
-.align_center {
-    align-items: center;
-}
-
-.justy_end {
-    justify-content: end;
-}
-
-.wrap {
-    flex-wrap: wrap;
-}
-
-.justy_center {
-    justify-content: center;
-}
-
+/* margin rules */
 
 .margin_bottom_20 {
     margin-bottom: 20px;
 }
 
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
-}
-
 .margin_top_bottom_20 {
     margin: 20px 0;
 }
-
-.wth100 {
-    width: 100%;
-}
-
-.button_header, .bottone_prova_gratuita, .bottone_prova_gratuita_team {
-    transition: brightness;
-}
-
-.button_header:hover, .bottone_prova_gratuita:hover, .bottone_prova_gratuita_team:hover {
-    filter: brightness(150%);
-}
-
-.trova_un_partner_button, .no_border_button {
-    transition: all ;
-}
-
-.trova_un_partner_button:hover, .no_border_button:hover {
-    background-color: black;
-    color: white;
-}
-
 
 /* header */
 
@@ -380,18 +364,6 @@ h1 {
 
 /* second section */
 
-h2 {
-    font-size: 40px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h5 {
-    font-size: 15px;
-}
-
 .radio_button_main {
     padding-top: 25px;
 }
@@ -404,8 +376,6 @@ h5 {
 .fatturazione_mensile {
     margin-right: 40px;
 }
-
-
 
 .cards_second_section, .cards_third_section {
     width: calc(100% / 3 - 30px);
@@ -443,8 +413,6 @@ h5 {
     margin-bottom: 50px;
 }
 
-
-
 .team_card  {
     padding: 10px;
     width: 100%;
@@ -453,7 +421,6 @@ h5 {
     border-right: 1px solid;
     border-left: 1px solid;
 }
-
 
 .bottone_prova_gratuita_team {
     background-color: var(--bkc-button-blu);
@@ -474,10 +441,8 @@ h5 {
     width: 40%;
 }
 
-
 .partner_png {
-    max-height: 500px;
-    max-width: 500px;
+    max-width: calc(100% - 40px);
 }
 
 .trova_un_partner_button {
@@ -518,9 +483,6 @@ h5 {
 .square > img {
     filter: invert();
 }
-
-
-
 
 .green {
     background-color: var(--bkc-green);
