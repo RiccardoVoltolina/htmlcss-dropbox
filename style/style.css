@@ -227,6 +227,14 @@ body {
     width: 100%;
 }
 
+.button_header, .bottone_prova_gratuita, .bottone_prova_gratuita_team {
+    transition: brightness;
+}
+
+.button_header:hover, .bottone_prova_gratuita:hover, .bottone_prova_gratuita_team:hover {
+    filter: brightness(150%);
+}
+
 
 /* header */
 
@@ -260,6 +268,7 @@ nav {
     padding-left: 15px;
 }
 
+
 .sx, .sx > a {
     margin-left: 20px;  
     color: var(--color-text-nav);
@@ -278,6 +287,11 @@ nav {
 
 .container_links_header > a {
     text-decoration: none; 
+    transition: border-bottom 0s;
+}
+
+.container_links_header > a:hover  {
+    border-bottom: 1px solid black;
 }
 
 .card_header_right {
@@ -308,7 +322,7 @@ h1 {
     max-width: 80%;
     font-size: 60px;
     padding-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .h2_color {
