@@ -58,9 +58,7 @@ h1, h2, i, h3, h5, strong {
 
 /* end main debug */
 
-footer {
-    background-color: black;
-}
+
 
 
 
@@ -132,6 +130,8 @@ body {
 .pd40 {
     padding: 40px 0;
 }
+
+
 
 .pdt30 {
     padding-top: 30px;
@@ -406,9 +406,6 @@ h5 {
 }
 
 
-.row_main {
-    padding: 20px;
-}
 
 .cards_second_section, .cards_third_section {
     width: calc(100% / 3 - 30px);
@@ -424,13 +421,6 @@ h5 {
 .team_container {
     border: 1px solid;
     width: 100%;
-    max-width: 1170px;
-    margin: auto;
-    height: 100%;
-}
-
-.cards_container {
-    width: 90%;
     max-width: 1170px;
     margin: auto;
     height: 100%;
@@ -464,9 +454,6 @@ h5 {
     border-left: 1px solid;
 }
 
-.height_100 {
-    height: 100%;
-}
 
 .bottone_prova_gratuita_team {
     background-color: var(--bkc-button-blu);
@@ -596,14 +583,12 @@ h5 {
 
 /* footer */
 
-footer, .white {
-    color: white;
+footer {
+    background-color: black;
 }
 
-.footer_container {
-    width: 90%;
-    max-width: 1170px;
-    margin: auto;
+footer, .white {
+    color: white;
 }
 
 .col_footer {
@@ -612,7 +597,8 @@ footer, .white {
 
 .pdb15 > a {
     text-decoration: none;
-    color: white;
+    color: gray;    
+
 }
 
 .riga_footer {
