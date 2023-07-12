@@ -540,6 +540,23 @@ h5 {
     background-color: yellow;
 }
 
+.quest i {
+    transition: rotate 1s;
+}
+
+.quest:hover i {
+    rotate: 180deg;
+}
+
+.quest p {
+    padding-bottom: 20px;
+    display: none;
+}
+
+.quest:hover p {
+    display: block;
+}
+
 
 /* footer */
 
