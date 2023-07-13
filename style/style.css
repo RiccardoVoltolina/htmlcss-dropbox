@@ -200,6 +200,10 @@ h5 {
     padding-right: 20px;
 }
 
+.pdr2 {
+    padding-right: 2px;
+}
+
 .pdb40 {
     padding-bottom: 40px;
 }
@@ -529,20 +533,20 @@ h1 {
     background-color: yellow;
 }
 
-.quest i {
+.quest_1 i {
     transition: rotate 1s;
 }
 
-.quest:hover i {
+.quest_1:hover i {
     rotate: 180deg;
 }
 
-.quest p {
+.quest_1 p {
     padding-bottom: 20px;
     display: none;
 }
 
-.quest:hover p {
+.quest_1:hover p {
     display: block;
 }
 
