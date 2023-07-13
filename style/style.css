@@ -140,95 +140,80 @@ h5 {
 
 /* padding rules */
 
-.pdt150 {
+.pt150 {
     padding-top: 150px;
 }
 
-.pdb80 {
+.pb80 {
     padding-bottom: 80px;
 }
 
-.pdb150 {
+.pb150 {
     padding-bottom: 150px;
 }
 
-.pd20 {
+.p20 {
     padding: 20px;
 }
 
-.mgt50 {
+.mt50 {
     margin-top: 50px;
 }
 
-.pd30 {
+.p30 {
     padding: 30px;
 }
 
-.pd60 {
-    padding: 60px 0;
-}
 
-.pd10 {
-    padding: 10px;
-}
 
-.pd40 {
+
+
+.py40 {
     padding: 40px 0;
 }
 
-.pdt30 {
+.pt30 {
     padding-top: 30px;
 }
 
-.pd100 {
+.py100 {
     padding: 100px 0;
 }
 
-.pdl20 {
+.pl20 {
     padding-left: 20px;
 }
 
-.pdb18 {
-    padding-bottom: 18px;
-}
 
-.pdt60 {
+
+.pt60 {
     padding-top: 60px;
 }
 
-.pdr20 {
+.pr20 {
     padding-right: 20px;
 }
 
-.pdr2 {
+.pr2 {
     padding-right: 2px;
 }
 
-.pdb40 {
+.pb40 {
     padding-bottom: 40px;
 }
 
-.pdb20 {
+.pb20 {
     padding-bottom: 20px;
 }
 
-.pdb80 {
-    padding-bottom: 80px;
-}
 
-.pdb15 {
+.pb15 {
     padding-bottom: 15px;
 }
-.pdb5 {
-    padding-bottom: 5px;
-}
 
-.pdl5 {
+
+.pl5 {
     padding-left: 5px;
-}
-
-.pdr5 {
-    padding-right: 5px;
 }
 
 /* margin rules */
@@ -565,7 +550,7 @@ footer, .white {
     width: calc(100% / 5 - 30px);
 }
 
-.pdb15 > a {
+.pb15 > a {
     text-decoration: none;
     color: gray;    
 
